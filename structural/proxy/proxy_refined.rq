@@ -16,7 +16,7 @@ SELECT ?Request0 ?Request2 ?Request9 ?Subject1 ?RealSubject4 ?Proxy11
 ?Request9 woc:hasField ?realSubject8 .
 ?realSubject8 woc:hasType ?RealSubject4 .
 ?Request9 woc:references ?Request2 .
-?Proxy11 woc:hasDependency ?RealSubject4 .
+#?Proxy11 woc:hasDependency ?RealSubject4 .
 ?RealSubject4 woc:extends ?Subject1 .
 ?Proxy11 woc:extends ?Subject1 .
 
